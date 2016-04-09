@@ -15,13 +15,12 @@ public class MainActivity extends AppCompatActivity {
     public  void onClick(View v){
         Intent intent = new Intent(this,pizza.class);
         startActivity(intent);
-        finish();
+
     }
 
     public void Click(View v){
         Intent intent = new Intent(this,baleadas.class);
         startActivity(intent);
-        finish();
     }
 
 
