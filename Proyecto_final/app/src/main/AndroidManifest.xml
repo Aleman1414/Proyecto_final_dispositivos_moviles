@@ -21,6 +21,10 @@
         <activity
             android:name=".pizza"
             android:label="@string/title_activity_pizza"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".baleadas"
+            android:label="@string/title_activity_baleadas"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
