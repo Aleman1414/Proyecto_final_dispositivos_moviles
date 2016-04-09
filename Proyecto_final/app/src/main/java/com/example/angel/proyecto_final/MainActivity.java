@@ -18,7 +18,13 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
-    
+    public void Click(View v){
+        Intent intent = new Intent(this,baleadas.class);
+        startActivity(intent);
+        finish();
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

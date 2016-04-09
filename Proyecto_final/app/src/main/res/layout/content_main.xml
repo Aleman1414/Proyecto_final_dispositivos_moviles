@@ -15,8 +15,8 @@
 
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="89dp"
+        android:layout_width="201dp"
+        android:layout_height="67dp"
         android:id="@+id/pizza"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
@@ -24,4 +24,10 @@
         android:onClick="onClick"
         android:background="@mipmap/pizza" />
 
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:id="@+id/imageButton"
+        android:background="@mipmap/baleadas"
+        android:onClick="Click" />
 </LinearLayout>
