@@ -3,4 +3,5 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_pizza">pizza</string>
     <string name="title_activity_baleadas">baleadas</string>
+    <string name="title_activity_menu_conidas_rapidas">menu_conidas_rapidas</string>
 </resources>

@@ -12,14 +12,13 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
-    public  void onClick(View v){
-        Intent intent = new Intent(this,pizza.class);
-        startActivity(intent);
-
-    }
 
     public void Click(View v){
         Intent intent = new Intent(this,baleadas.class);
+        startActivity(intent);
+    }
+    public void Click1(View v){
+        Intent intent = new Intent(this,menu_conidas_rapidas.class);
         startActivity(intent);
     }
 

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.angel.proyecto_final">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,9 +27,11 @@
         <activity
             android:name=".baleadas"
             android:label="@string/title_activity_baleadas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu_conidas_rapidas"
+            android:label="@string/title_activity_menu_conidas_rapidas"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

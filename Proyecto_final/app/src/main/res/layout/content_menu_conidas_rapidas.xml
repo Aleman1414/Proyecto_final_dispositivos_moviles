@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.angel.proyecto_final.menu_conidas_rapidas"
+    tools:showIn="@layout/activity_menu_conidas_rapidas"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Menu de comidas rapidas"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="351dp"
+        android:layout_height="65dp"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="124dp"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="106dp"
+            android:layout_height="65dp"
+            android:id="@+id/pizza"
+            android:layout_weight="0.06"
+            android:onClick="onClick"
+            android:background="@mipmap/pizza" />
+
+        <ImageButton
+            android:layout_width="107dp"
+            android:layout_height="82dp"
+            android:id="@+id/hamburguesa"
+            android:layout_weight="0.01"
+            android:background="@mipmap/hamburguesa" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4"
+            android:background="@mipmap/pollo" />
+
+        <ImageButton
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton5"
+            android:layout_weight="0.21" />
+    </LinearLayout>
+
+</LinearLayout>
