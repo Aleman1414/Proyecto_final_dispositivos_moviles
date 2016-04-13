@@ -10,7 +10,7 @@ import android.view.View;
 
 public class menu_conidas_rapidas extends AppCompatActivity {
 
-    public  void onClick(View v){
+    public  void Click5(View p){
         Intent intent = new Intent(this,detalle.class);
         startActivity(intent);
 

@@ -39,7 +39,7 @@
             android:layout_height="65dp"
             android:id="@+id/pizza"
             android:layout_weight="0.06"
-            android:onClick="onClick"
+            android:onClick="Click5"
             android:background="@mipmap/pizza" />
 
         <ImageButton
