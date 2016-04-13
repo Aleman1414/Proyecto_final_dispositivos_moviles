@@ -31,6 +31,10 @@
         <activity
             android:name=".menu_conidas_rapidas"
             android:label="@string/title_activity_menu_conidas_rapidas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu_comidas_tipicas"
+            android:label="@string/title_activity_menu_comidas_tipicas"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -25,11 +25,11 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="351dp"
-        android:layout_height="65dp"></LinearLayout>
+        android:layout_height="39dp"></LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="124dp"
+        android:layout_width="118dp"
         android:layout_height="match_parent"
         android:weightSum="1"
         android:layout_gravity="center_horizontal">
@@ -50,16 +50,18 @@
             android:background="@mipmap/hamburguesa" />
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/imageButton4"
-            android:background="@mipmap/pollo" />
+            android:id="@+id/pollo"
+            android:background="@mipmap/pollo"
+            android:layout_weight="0.18" />
 
         <ImageButton
             android:layout_width="106dp"
             android:layout_height="wrap_content"
-            android:id="@+id/imageButton5"
-            android:layout_weight="0.21" />
+            android:id="@+id/donas"
+            android:layout_weight="0.21"
+            android:background="@mipmap/donas1" />
     </LinearLayout>
 
 </LinearLayout>

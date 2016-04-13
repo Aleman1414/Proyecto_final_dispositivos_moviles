@@ -13,12 +13,12 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity {
 
 
-    public void Click(View v){
-        Intent intent = new Intent(this,baleadas.class);
-        startActivity(intent);
-    }
     public void Click1(View v){
         Intent intent = new Intent(this,menu_conidas_rapidas.class);
+        startActivity(intent);
+    }
+    public void Click2 (View a){
+        Intent intent = new Intent(this,menu_comidas_tipicas.class);
         startActivity(intent);
     }
 

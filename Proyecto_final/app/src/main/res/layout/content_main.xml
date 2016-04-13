@@ -43,7 +43,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="41dp">
+        android:layout_height="37dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -62,5 +62,13 @@
         android:orientation="vertical"
         android:layout_width="143dp"
         android:layout_height="65dp"
-        android:layout_weight="0.12"></LinearLayout>
+        android:layout_weight="0.12">
+
+        <ImageButton
+            android:layout_width="132dp"
+            android:layout_height="match_parent"
+            android:id="@+id/comidas_tipicas"
+            android:onClick="Click2"
+            android:background="@mipmap/comidas_tipicas" />
+    </LinearLayout>
 </LinearLayout>
